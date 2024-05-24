@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>My Page - Givernance</title>
+  <link rel="stylesheet" type="text/css" href="css/mypage_style.css">
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo">
+      <img src="images/mainDove.png" alt="Givernance Logo" title="Givernance">
+      <div class="brand-name">Givernance</div>
+    </div>
+    <a href="#profileSection">Profile</a>
+    <a href="#fundraiserSection">My Fundraisers</a>
+    <a href="#donationHistorySection">Donation History</a>
+  </div>
+
+  <div class="mainContent">
+    <section id="profileSection">
+      <h2>Profile</h2>
+      <div class="profilePicture">
+        <img id="profilePic" src="images/defaultProfile.png" alt="Profile Picture">
+        <input type="file" id="uploadProfilePic" accept="image/*">
+        <button id="uploadButton">Upload</button>
+      </div>
+      <div class="nickname">
+        <label for="nicknameInput">Nickname:</label>
+        <input type="text" id="nicknameInput" value="UserNickname">
+        <button id="updateButton">Update</button>
+      </div>
+    </section>
+
+    <section id="fundraiserSection">
+      <h2>My Fundraisers</h2>
+      <div id="myFundraisers">
+        <!-- List of fundraisers created by the user will be dynamically inserted here -->
+      </div>
+    </section>
+
+    <section id="donationHistorySection">
+      <h2>Donation History</h2>
+      <div id="donationHistory">
+        <!-- List of fundraisers donated to by the user will be dynamically inserted here -->
+      </div>
+    </section>
+  </div>
+
+<script src="js/mypage.js"></script>
+</body>
+</html>
+
+

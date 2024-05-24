@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #556b2f;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f5f5dc;
+  background-color: #45523f;
+}
+
+.logo {
+  text-align: left; /* 로고와 브랜드 이름을 왼쪽으로 정렬 */
+  padding-left: 10px; /* 사이드바 내부의 좌측 여백을 추가 */
+  margin-bottom: 20px; /* 로고 아래 간격 조정 */
+}
+
+.logo img {
+  width: 80%; /* 로고 이미지 크기 조정 */
+  height: auto; /* 높이 자동 조절 */
+}
+
+.brand-name {
+  color: white; /* 텍스트 색상 */
+  font-size: 20px; /* 폰트 크기 */
+  font-weight: bold; /* 폰트 굵기 */
+}
+
+
+.mainContent {
+  margin-left: 200px;
+  padding: 20px;
+  background-color: #ffffff;
+  width: calc(100% - 200px);
+}
+
+#profileSection, #fundraiserSection, #donationHistorySection {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border: 1px solid #556b2f;
+  border-radius: 8px;
+}
+
+button, input[type="file"], input[type="text"] {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #556b2f;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
